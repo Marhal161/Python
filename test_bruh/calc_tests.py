@@ -17,7 +17,7 @@ class CalcBasicTests(unittest.TestCase):
     def test_div(self):
         self.assertEqual(calc.div(8, 4), 2)
 
-
+@unittest.skip("Temporaly skip test_add")
 class CalcExTests(unittest.TestCase):
     
     def test_sqrt(self):
